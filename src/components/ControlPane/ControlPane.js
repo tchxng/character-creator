@@ -21,7 +21,7 @@ const ControlPane = ({
           {options.length} options
         </span>
       </h2>
-      <ButtonRow>
+      <ButtonRow className={styles.buttonRow}>
         {options.map(({ id, label, color, children }) => (
           <ToggleButton
             key={id}
